@@ -1,0 +1,42 @@
+#include<stdio.h>
+
+int main()
+
+{
+ 	
+int n,t,s=0,c=0;
+
+ 	
+printf("Enter the target score:\n");
+ 	
+scanf("%d",&t);
+ 	
+printf("Enter the scores taken by Patrick in each turn:\n");
+ 	
+for(;s<t;)
+ 	
+{
+ 	   
+ scanf("%d",&n);
+ 	    if(s<t)
+ 	    {
+ 	        s+=n;
+ 	         c++;
+ 	    
+}
+ 	   
+else
+ 	    
+{
+ 	       
+ break;
+ 	    
+}
+ 	
+}
+ 	
+printf("The number of turns is %d",c);
+	
+return 0;
+
+}
